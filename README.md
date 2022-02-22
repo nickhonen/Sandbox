@@ -5,4 +5,4 @@ Any random concept I learn about in a class or something that I just want to pra
 
 CSPrep is from a prep course that I took when I wanted to do a bootcamp. Was mainly learning javascript fundamentals.
 
-Webpages are my forray into HTML/CSS as a backend guy. Gonna try and build a bunch of webpages and try to improve my design skills along the way.
+Webpages are my forray into HTML/CSS. Any webpage I mess around with that isn't big enough for a dedicated folder, or are just the result of a freeCodeCamp module I've done or something go here.
