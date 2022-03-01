@@ -9,12 +9,12 @@
   <body>
     <section>
     <h1 id="title"> Nick Survey Form</h1>
-    <p id="description">Thank you for taking the time to fill this out</p>
+    <p id="description">Thank you for taking the time to fill this out!</p>
     </section>
     <form id="survey-form">
     <section>
     <fieldset>
-      <legend></legend>
+      <legend>Basic Information</legend>
         <ul>
           <li>
             <label for="name-label">
@@ -34,10 +34,62 @@
               Age (optional)
             </label>
           </li>
-
-      </ul>
+        </ul>
     </fieldset>
+
+    <label for="dropdown">Favorite food:</label>
+    <select id="dropdown">
+      <option value="pasta">Pasta</option>
+      <option value="pizza">Pizza</option>
+      <option value="hamburgers">Hamburgers</option>
+      <option value="chili">Chili</option>
+    </select>
+          
+    <fieldset>
+      <legend>Favorite Console Company</legend>
+
+      <input type="radio" name="nintendo">
+      <label for="nintendo">Nintendo</label>
+
+      <input type="radio" name="sony">
+      <label for="nintendo">Sony</label>
+
+      <input type="radio" name="microsoft">
+      <label for="nintendo">Microsoft</label>
+    </fieldset>
+
+<h3>Favorite console of this generation</h3>
+    <ul>
+      <li>
+        <input type="checkbox" id="switch" value="">
+        <label for="switch">Nintendo Switch</label>
+      </li>
+      <li>
+        <input type="checkbox" id="playstation" value="">
+        <label for="playstation">Playstation 5</label>
+      </li>
+      <li>
+        <input type="checkbox" id="xboxx" value="">
+        <label for="xboxx">Xbox Series X</label>
+      </li>
+      <li>
+        <input type="checkbox" id="xboxs" value="">
+        <label for="xboxs">Xbox Series S</label>
+      </li>
+    </ul>
+    <p>
+      <label for="comments">Additional comments or suggestions?</label>
+
+      <textarea id="comments" name="comments" rows="4" cols="33" placeholder="Enter your comments here...">
+      </textarea>
+    </p>
     </form>
   </section>
+  <section>
+    <p>
+      <button type="submit">Submit</button>
+    </p>
+  </section>
+  
   </body>
 </html>
